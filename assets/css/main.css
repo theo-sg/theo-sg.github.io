@@ -2707,11 +2707,11 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #707070;
+				background-color: #777585;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #ff8282;
+				background-color: #82ffba;
 			}
 
 			.tiles article.style3 > .image:before {
