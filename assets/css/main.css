@@ -2723,11 +2723,11 @@ input, select, textarea {
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ff8282;
+				background-color: #437fff;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #ff8282;
+				background-color: #686868;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
