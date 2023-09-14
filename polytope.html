@@ -22,7 +22,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="title">// Theo Stewart Griffiths</span>
+									<span class="title"><b><h1>// Theo Stewart Griffiths</h1></b></span>
 								</a>
 
 							<!-- Nav -->
@@ -40,8 +40,8 @@
 					<ul>
 					<li><h2><a href="index.html">HOME</a><h2></li>
 					<li><h2>MY COURSE</h2></li>
-						<li><a href="firstyear.html"></a>FIRST YEAR: 2022-23</li>
-						<li><a href="secondyear.html"></a>SECOND YEAR: 2023-24</li>
+						<li><a href="firstyear.html">FIRST YEAR: 2022-23</a></li>
+						<li><a href="secondyear.html">SECOND YEAR: 2023-24</a></li>
 						<!-- <li><a href="thirdyear.html"></a>THIRD YEAR: 2024-25</li> -->
 						<br><br>
 					<li><h2>MY PROJECTS</h2></li>
@@ -50,7 +50,7 @@
 						<li><a href="boids.html">BOIDS</a></li>
 						<li><a href="polytope.html">POLYTOPE</a></li>
 						<li><a href="guilds.html">GUILDS PLUGIN</a></li>
-						<li><a href="ymir.html">YMIR</a></li>
+						<li><a href="interpreter.html">INTERPRETER</a></li>
 					</ul>
 					<br>
 					<ul class="icons">
@@ -64,29 +64,37 @@
 					<div id="main">
 						<div class="inner">
 							<h1>POLYTOPE</h1>
-							<h2>A work-in-progress action platformer</h2>
-							<h3><a href="https://github.com/theo-sg/polytope">View the source code here</a></h3>
-							<span class="image main"><img src="images/RedOctahedronRotating_Text.gif" alt="" /></span>
+							<h2>A demo for an action platformer game </h2>
+							<h3><a href="https://github.com/theo-sg/polytope">View source code here</a></h3>
+							<!-- <span class="image main"><img src="images/RedOctahedronRotating_Text.gif" alt="" /></span> -->
 							<span class="image main"><img src="images/POLYTOPE1.png" alt="The prototype dialogue system" /></span>
 							<span class="image main"><img src="images/POLYTOPE2.png" alt="Polytope will have many platforming elements such as bounce pads" /></span>
 							<span class="image main"><img src="images/POLYTOPE3.png" alt="In-depth platforming system" /></span>
-							<p>POLYTOPE is a 2D action puzzle platformer game.
+
+							<p>I participated in a game jam in 2020, developing a simple platform game in Unity with checkpoints and a timer over 1 day. 
+								During the beginning of 2021, I revisited this idea and began to flesh out the game's mechanics.
 							</p>
-							<p>I started work on the game initially as a game jam idea back in 2020, developing a very basic prototype for a physics-based platformer which incorporated
-							both 2D and 3D elements. When lockdown began in 2021, I decided to see if I could develop this idea further into a more fleshed out game prototype. 
-							For this project, my main goal was to actually finish and release, however with all of the events of 2021 unfortunately I couldn't find the time!
+
+							<p>Some of the features I implemented in the game include:
+								<ul>
+									<li>Individual manager scripts using the static singleton design pattern</li>
+									<li>Layer-based collision detection</li>
+									<li>Rigidbody-based motion, movement damping, double jumping, gravity and bouncepads</li>
+									<li>Raycasting for wall-jump mechanics</li>
+									<li>Event-based input systems (instead of Unity's regular per-frame input test)</li>
+								</ul>
 							</p>
-							<p>I would consider this to be one of my most impressive projects so far, as most of my code is very functional, well arranged and well commented,
-							implementing features such as:
-							<ul>
-								<li>Individual manager scripts using singletons</li>
-								<li>Layer-based collision detection and calculations for physics interactions</li>
-								<li>Raycasting for wall-jump mechanics</li>
-								<li>Gravity and drag emulation on 2D rigidbodies</li>
-								<li>Event-based input systems (instead of Unity's regular checking for input each frame)</li>
-							</ul>
+
+							<p>My design aims for this project was minimalism, so as a result I aimed to implement each
+								feature in the most efficient and scalable way possible. 
+								In previous projects I found myself not refactoring enough, which
+								left verbose and poorly designed code, making it difficult when I came back to add another feature; I quickly learned 
+								that this was an unsustainable way of developing, and over the course of my experience as a programmer I have improved
+								my ability.
 							</p>
-							</div>
+							
+							<h4>LANGUAGES USED: C#</h4>
+						</div>
 					</div>
 
 				<!-- Footer -->

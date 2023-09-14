@@ -22,7 +22,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="title">// Theo Stewart Griffiths</span>
+									<span class="title"><b><h1>// Theo Stewart Griffiths</h1></b></span>
 								</a>
 
 							<!-- Nav -->
@@ -40,8 +40,8 @@
 					<ul>
 					<li><h2><a href="index.html">HOME</a><h2></li>
 					<li><h2>MY COURSE</h2></li>
-						<li><a href="firstyear.html"></a>FIRST YEAR: 2022-23</li>
-						<li><a href="secondyear.html"></a>SECOND YEAR: 2023-24</li>
+						<li><a href="firstyear.html">FIRST YEAR: 2022-23</a></li>
+						<li><a href="secondyear.html">SECOND YEAR: 2023-24</a></li>
 						<!-- <li><a href="thirdyear.html"></a>THIRD YEAR: 2024-25</li> -->
 						<br><br>
 					<li><h2>MY PROJECTS</h2></li>
@@ -65,19 +65,27 @@
 						<div class="inner">
 							<h1>BUOYANCY SIMULATOR (A LEVEL PROJECT)</h1>
 							<h2>My A-Level project for Computer Science</h2>
-							<h3><a href="https://github.com/theo-sg/buoyancysim">View the source code here</a></h3>
+							<!-- <h3><a href="https://github.com/theo-sg/buoyancysim">View the source code here</a></h3> -->
 							<h3><a href="images/BUOYANCYSIM.pdf">View the documentation here</a></h3>
 							<span class="image main"><img src="images/BUOYANCY.png" alt="" /></span>
-							<p>For my examined project (which was 20% of my final grade) I decided to do a simulation of buoyancy. This was quite a complex task
-								and over the course of the project I quickly realised how much work would need to be done.
-								<br>
-								<br>
-								In order to accurately represent a water wave, I learned about multivariable calculus in order to determine the gradient and normal
-								vector of a 2D surface. In addition to this, I also had to learn the basics of GLSL in order to make a water wave shader.
-								<br>
-								<br>
-								Read the documentation linked above for a much more in depth analysis.
-								<br>
+
+							<p>For my coursework project (worth 20% of my final grade) I decided that I would build a physics simulation of some kind.
+								I experimented over the summer before Year 13 with gravitational freebody simulation and water simulation.
+							</p>
+							<p>Eventually I decided to work with the latter as I believed it may have been more in-depth and worth more marks, however
+								I quickly realised after extensive research how large of a task this could be.
+							</p>
+							<p>In order to develop this project, I had to prototype the <a href="waves.html">wave shader</a>, which involved learning the basics
+							of GLSL, a language I had no prior experience with, and also getting to grips with Unity's shader pipeline, 
+							which is a function of the engine I had minimal experience with.
+							</p>
+							<p>The physics calculations lead me to do lots of research into buoyancy and mathematical approximations for the forces
+								involved. I opted for a vertex-based test, which finds the distance each vertex is under the surface of the water, and applies a force
+								at a normal to the surface of the wave at this point. However, as can be seen in the aforementioned design document,
+								calculating the normal vector required me to learn about multivariable calculus and the dot and cross product of vectors.
+							</p>
+							<p>
+								I got an A* for my project's final grade!
 							</p>
 						</div>
 					</div>
